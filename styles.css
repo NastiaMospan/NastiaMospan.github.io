@@ -182,8 +182,8 @@ padding: 20px;
 
 #img1 {
     border: 1px solid white;
-   
-    max-width: 30vh;
+   border-radius: 50%;
+    max-width: 40vh;
     max-height: 40vh;
     margin: 0;
 }
@@ -233,12 +233,12 @@ footer {
     }
     #img1{
         display: flex;
-        justify-content: center;
-        max-width: 15rem;
-        max-height: 15rem;
-        padding-left: 70px;
-        align-items: center;
+        max-width: auto;
+        max-height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
+
     .section-text{
         display: flex;
         align-items: center;
