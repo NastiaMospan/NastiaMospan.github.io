@@ -92,7 +92,7 @@ a:hover {
     box-shadow: #bABABA;
     transition:transform .2s;
     display:block;
-    max-width: 7rem;
+    max-width: 8rem;
 }
 
 .emailme:hover{
