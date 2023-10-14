@@ -1,0 +1,282 @@
+/* General*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85, 85, 85);
+   
+}
+.projects{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-top: 2px dotted #F76E7C;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+    
+
+    
+
+    .project{
+        height: 20vh;
+        width: 20vh;
+        border: 1px solid #F76E7C;
+    }
+   
+
+.main-about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 2rem;
+    border-top: 2px dotted #F76E7C;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Links/button*/
+ a {
+    color: black ;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: #F76E7C;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.nav-links-active {
+    font-weight: bold !important;
+    color: #bABABA !important;
+}
+
+.nav-links a,
+.emailme {
+    transition: all 300ms ease;
+}
+
+.emailme {
+    background-color:#F76E7C;
+    margin: 5px auto 0;
+    size: 40;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    border-radius: 5%;
+    box-shadow: #bABABA;
+    transition:transform .2s;
+    display:block;
+    max-width: 9rem;
+    
+
+}
+.emailme:hover{
+    color: white;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.a2:hover,
+.a2:focus,
+.a2:active {
+    color: white;
+    -webkit-transform: scale(1.1);
+    transform: scale(2.1);
+}
+
+/* Topnav*/
+header{
+    height: 15vh;
+   
+}
+nav,
+.nav-links {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+nav {
+    justify-content: space-around;
+    align-content: center;
+    height: 10vh;
+    padding-top: 50px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+
+/*Section*/
+.profile {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-right: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted #F76E7C;
+    border-top: 2px dotted #F76E7C;
+    margin-top: 50px;
+}
+
+.section-text {
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+padding: 20px;
+    margin-bottom: 0;
+    height: 300px;
+    text-align: center;
+
+}
+
+.section-p {
+    padding: top 30px;
+    border-bottom-width: 100px;
+    height: 200px;
+    width: 400px;
+}
+
+.section-picture {
+    margin-left: 40px;
+
+}
+
+.logo{}
+.h1 {
+    padding-left: 5px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#img1 {
+    border: 1px solid white;
+   
+    max-width: 30vh;
+    max-height: 40vh;
+    margin: 0;
+}
+
+
+
+/*footer*/
+
+footer {
+    text-align: center;
+    height: 15vh;
+    
+    background-color: #bABABA;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    padding-top: 5px;
+    gap: 1rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#copy {
+    margin-bottom: 20px;
+}
+
+/* Media query*/
+@media all and (max-width:500px)
+ {
+
+
+    header{
+        height: 10vh;
+    }
+    #top-nav{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    #img1{
+        display: flex;
+        justify-content: center;
+        max-width: 15rem;
+        max-height: 15rem;
+        padding-left: 70px;
+        align-items: center;
+    }
+    .section-text{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    p, h1{
+        font-size: medium;
+        align-items: center;
+    }
+  .h1{
+    padding-bottom: 10px;
+  }
+
+.section-p{
+    width: auto;
+}
+   .projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+   }
+  footer{
+    position: relative;
+  }
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+}
+
