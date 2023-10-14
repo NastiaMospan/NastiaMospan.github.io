@@ -92,10 +92,9 @@ a:hover {
     box-shadow: #bABABA;
     transition:transform .2s;
     display:block;
-    max-width: 9rem;
-    
-
+    max-width: 7rem;
 }
+
 .emailme:hover{
     color: white;
     -ms-transform: scale(1.5); /* IE 9 */
