@@ -27,6 +27,31 @@ The website presents a friendly interface for users and has 3 web pages that inc
 > - The different features of your site, e.g. if you have hover states, take ascreenshot that shows that.>
 > You can do this by saving the images in a folder in your repo, and includingthem in your readme document with the following Markdown code:
 
-#### {{ image_title }}
+#### 1. pc-main screen- button hover
+[Image of the home page, the button is zoomed when hovered ]
+(.images/pc-main screen- button hover.png)
 
-![ {{ Description of image }} ]( {{ ./relative_path_to_file }} )
+#### 2. Screen Shot 2023-10-15 at 11.45.40 am
+[Image of about me page, a link is in active status(grey)]
+(.images/Screen Shot 2023-10-15 at 11.45.40 am.png)
+
+#### 3. Screen Shot 2023-10-15 at 11.46.46 am
+[Image of projects page, active link, hover]
+(.images/Screen Shot 2023-10-15 at 11.46.46 am.png)
+
+#### 4. mob-mainpage
+[Mobile screen, main page with footer captured]
+(.images/mob-mainpage.PNG)
+
+#### 5. mob-mainpage-footer
+[Mobile screen, main page with header captured]
+(.images/mob-mainpage-footer.PNG)
+
+#### 6. mob-projects
+[Mobile screen, projects]
+(.images/mob-projects.PNG)
+
+#### 7. images/mob-aboutme
+[Mobile screen, about me ]
+(.images/mob-aboutme.PNG)
+
